@@ -1,0 +1,104 @@
+body {
+    
+    background-image: "images\background\bg.png";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 75%;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px ;
+    text-align: center;
+}
+
+header h1 {
+    font-family:'Times New Roman','serif';
+    margin: 0;
+}
+h3{
+    font-family: fantasy;
+    margin:3;
+}
+ h4 {
+    margin: 1;
+    font-family: fantasy;
+    font-size:25px;
+    font-style:italic;
+    color:rgb(4, 23, 23);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #c39999;
+    text-decoration:none;
+}
+
+main {
+    padding: 20px;
+}
+
+.game-info {
+    text-align: center;
+}
+
+.game-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.game-features {
+    margin-top: 20px;
+}
+
+.game-features ul {
+    list-style-type:none;
+    padding: 0;
+}
+
+
+   /* background-color: #d6d1d1;*/
+    /*border: 1px solid #270cd7;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing:border-box;*/
+    
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.image-container {
+    position: relative;
+    display: inline-block; /* or block, depending on your design */
+  }
+  
+  .button {
+    position: absolute;
+    bottom: 10px; /* adjust to desired spacing */
+    
+    background-color: #6a00ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
